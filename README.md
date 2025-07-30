@@ -37,7 +37,7 @@ Add to your Claude Code MCP settings:
 ```json
 {
   "mcpServers": {
-    "vibedev-specs": {
+    "spec-driven-dev-mcp": {
       "command": "npx",
       "args": ["spec-driven-dev-mcp@latest"],
       "env": {},
