@@ -49,15 +49,15 @@ Add to your Claude Code MCP settings:
 
 ### Available Tools
 
-1. **vibedev_specs_workflow_start** - Start the development workflow
-2. **vibedev_specs_goal_confirmed** - Confirm feature goals
-3. **vibedev_specs_requirements_start** - Begin requirements gathering
-4. **vibedev_specs_requirements_confirmed** - Confirm requirements completion
-5. **vibedev_specs_design_start** - Start design documentation
-6. **vibedev_specs_design_confirmed** - Confirm design completion
-7. **vibedev_specs_tasks_start** - Begin task planning
-8. **vibedev_specs_tasks_confirmed** - Confirm task planning completion
-9. **vibedev_specs_execute_start** - Start task execution
+1. **spec_driven_dev_workflow_start** - Start the development workflow
+2. **spec_driven_dev_goal_confirmed** - Confirm feature goals
+3. **spec_driven_dev_requirements_start** - Begin requirements gathering
+4. **spec_driven_dev_requirements_confirmed** - Confirm requirements completion
+5. **spec_driven_dev_design_start** - Start design documentation
+6. **spec_driven_dev_design_confirmed** - Confirm design completion
+7. **spec_driven_dev_tasks_start** - Begin task planning
+8. **spec_driven_dev_tasks_confirmed** - Confirm task planning completion
+9. **spec_driven_dev_execute_start** - Start task execution
 
 ## Workflow Stages
 
@@ -86,7 +86,7 @@ Here's a complete example of using the VibeSpecs workflow:
 ```
 User: I want to build a user authentication feature
 Assistant: Let me start the VibeSpecs workflow for you.
-[calls vibedev_specs_workflow_start]
+[calls spec_driven_dev_workflow_start]
 ```
 
 ### 2. Goal Collection
@@ -109,49 +109,49 @@ Assistant: Perfect! Let me confirm:
 Is this correct?
 User: Yes, that's exactly what I need.
 
-[calls vibedev_specs_goal_confirmed with feature_name="user-authentication"]
+[calls spec_driven_dev_goal_confirmed with feature_name="user-authentication"]
 ```
 
 ### 3. Requirements Gathering
 ```
 Assistant: Great! Now let's gather detailed requirements.
-[calls vibedev_specs_requirements_start]
+[calls spec_driven_dev_requirements_start]
 
 [Assistant generates detailed EARS-format requirements in .docs/specs/user-authentication/requirements.md]
 
 User: The requirements look comprehensive. Approved!
 
-[calls vibedev_specs_requirements_confirmed]
+[calls spec_driven_dev_requirements_confirmed]
 ```
 
 ### 4. Design Documentation
 ```
 Assistant: Now let's create the technical design.
-[calls vibedev_specs_design_start]
+[calls spec_driven_dev_design_start]
 
 [Assistant creates detailed design document with architecture, components, data models, etc.]
 
 User: Design looks good, proceed!
 
-[calls vibedev_specs_design_confirmed]
+[calls spec_driven_dev_design_confirmed]
 ```
 
 ### 5. Task Planning
 ```
 Assistant: Let's break this down into executable tasks.
-[calls vibedev_specs_tasks_start]
+[calls spec_driven_dev_tasks_start]
 
 [Assistant creates numbered task list with priorities and dependencies]
 
 User: Task breakdown is perfect!
 
-[calls vibedev_specs_tasks_confirmed]
+[calls spec_driven_dev_tasks_confirmed]
 ```
 
 ### 6. Task Execution
 ```
 Assistant: Time to implement! Let's start coding.
-[calls vibedev_specs_execute_start]
+[calls spec_driven_dev_execute_start]
 
 [Assistant begins implementing tasks one by one, following the plan]
 ```
