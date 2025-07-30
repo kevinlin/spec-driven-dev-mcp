@@ -15,10 +15,8 @@
   },
   "keywords": [
     "mcp",
-    "vibedev",
-    "specs",
+    "spec-driven",
     "workflow",
-    "claude",
     "ai",
     "development",
     "requirements",
@@ -36,13 +34,14 @@
     "url": "https://github.com/kevinlin/spec-driven-dev-mcp/issues"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "1.0.0",
-    "nanoid": "^5.0.7"
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "nanoid": "^5.1.5"
   },
   "devDependencies": {
-    "@types/node": "^20.0.0",
-    "tsx": "^4.0.0",
-    "typescript": "^5.0.0"
+    "@types/node": "^22.13.10",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
   },
   "engines": {
     "node": ">=18.0.0"
