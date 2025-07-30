@@ -1,13 +1,13 @@
-# VibeSpecs MCP Server
+# Spec-driven Development MCP Server
 
-An AI-powered development workflow MCP server that guides you from requirements to code implementation.
+An MCP server that brings AI spec-driven development workflow to any AI-powered IDE besides Kiro
 
 ## Features
 
 - **Complete Development Workflow**: From goal collection to task execution
 - **AI-Powered Guidance**: Step-by-step instructions for each development phase
 - **Template-Based**: Uses proven templates for requirements, design, and tasks
-- **Claude Integration**: Seamlessly integrates with Claude Code
+- **IDE Integration**: Seamlessly integrates with Cursor, Copilot or any AI-powered IDE
 
 ## Installation
 
@@ -30,9 +30,9 @@ spec-driven-dev-mcp
 
 ## Usage
 
-### With Claude Code
+### With Cursor
 
-Add to your Claude Code MCP settings:
+Add to your Cursor MCP settings:
 
 ```json
 {
