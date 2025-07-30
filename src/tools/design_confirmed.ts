@@ -12,7 +12,7 @@ export async function designConfirmed(
   return `# ✅ Design Document Completed
 
 ## Generated Design Document:
-📄 ".vibedev/specs/${feature_name}/design.md"
+📄 ".docs/specs/${feature_name}/design.md"
 
 The design document contains the complete technical architecture, component design, and implementation plan.
 

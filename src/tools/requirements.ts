@@ -11,8 +11,8 @@ export async function requirementsStart(
   const { session_id, feature_name } = params;
   console.error(`[MCP] Starting requirements collection for feature: ${feature_name}`);
   
-  // Use gen-req.md template
-  const template = await readTemplate('gen-req.md', {
+  // Use gen-requirement.md template
+  const template = await readTemplate('gen-requirement.md', {
     feature_name,
     session_id
   });

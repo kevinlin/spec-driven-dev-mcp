@@ -37,21 +37,21 @@ export const WORKFLOW_STEPS: WorkflowStep[] = [
     name: STEP_NAMES.REQUIREMENTS,
     description: 'Generate requirements document in EARS format',
     tool: 'vibedev_specs_requirements_start → vibedev_specs_requirements_confirmed',
-    deliverable: '.vibedev/specs/{feature_name}/requirements.md'
+    deliverable: '.docs/specs/{feature_name}/requirements.md'
   },
   {
     step_number: 3,
     name: STEP_NAMES.DESIGN,
     description: 'Create technical design document based on requirements',
     tool: 'vibedev_specs_design_start → vibedev_specs_design_confirmed',
-    deliverable: '.vibedev/specs/{feature_name}/design.md'
+    deliverable: '.docs/specs/{feature_name}/design.md'
   },
   {
     step_number: 4,
     name: STEP_NAMES.TASKS,
     description: 'Generate executable development task list',
     tool: 'vibedev_specs_tasks_start → vibedev_specs_tasks_confirmed',
-    deliverable: '.vibedev/specs/{feature_name}/tasks.md'
+    deliverable: '.docs/specs/{feature_name}/tasks.md'
   },
   {
     step_number: 5,

@@ -12,7 +12,7 @@ export async function requirementsConfirmed(
   return `# ✅ Requirements Gathering Completed
 
 ## Generated Requirements Document:
-📄 ".vibedev/specs/${feature_name}/requirements.md"
+📄 ".docs/specs/${feature_name}/requirements.md"
 
 The requirements document contains complete user stories and EARS-format acceptance criteria.
 

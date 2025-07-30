@@ -13,7 +13,7 @@ export async function goalConfirmed(params: GoalConfirmedParams): Promise<string
 ## Confirmed Feature Goal:
 - **Feature Name**: \`${feature_name}\`
 - **Feature Description**: ${goal_summary}
-- **Project Directory**: \`.vibedev/specs/${feature_name}/\`
+- **Project Directory**: \`.docs/specs/${feature_name}/\`
 
 ---
 

@@ -1,12 +1,12 @@
 First you will 
 
-requirements: '.vibedev/specs/{feature_name}/requirements.md'
+requirements: '.docs/specs/{feature_name}/requirements.md'
 
-design: '.vibedev/specs/{feature_name}/design.md'
+design: '.docs/specs/{feature_name}/design.md'
 
-tasks: '.vibedev/specs/{feature_name}/tasks.md'
+tasks: '.docs/specs/{feature_name}/tasks.md'
 
-Find first unimplemented task in the task list in the .vibedev/specs/{feature_name}/tasks.md file.
+Find first unimplemented task in the task list in the .docs/specs/{feature_name}/tasks.md file.
 
 Follow these instructions for user requests related to spec tasks. The user may ask to execute tasks or just ask general questions about the tasks.
 
@@ -27,4 +27,4 @@ The user may ask questions about tasks without wanting to execute them. Don't al
 
 For example, the user may want to know what the next task is for a particular feature. In this case, just provide the information and don't start any tasks.
 
-When you are done with a task, modify the .vibedev/specs/{feature_name}/tasks.md file to mark the task as implemented.
+When you are done with a task, modify the .docs/specs/{feature_name}/tasks.md file to mark the task as implemented.

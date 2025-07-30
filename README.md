@@ -72,7 +72,7 @@ Add to your Claude Code MCP settings:
 Generated projects follow this structure:
 
 ```
-.vibedev/specs/{feature_name}/
+.docs/specs/{feature_name}/
 ├── requirements.md
 ├── design.md
 └── tasks.md
@@ -117,7 +117,7 @@ User: Yes, that's exactly what I need.
 Assistant: Great! Now let's gather detailed requirements.
 [calls vibedev_specs_requirements_start]
 
-[Assistant generates detailed EARS-format requirements in .vibedev/specs/user-authentication/requirements.md]
+[Assistant generates detailed EARS-format requirements in .docs/specs/user-authentication/requirements.md]
 
 User: The requirements look comprehensive. Approved!
 
@@ -158,7 +158,7 @@ Assistant: Time to implement! Let's start coding.
 
 ### Generated Project Structure
 ```
-.vibedev/specs/user-authentication/
+.docs/specs/user-authentication/
 ├── requirements.md    # EARS-format requirements
 ├── design.md         # Technical architecture
 └── tasks.md          # Implementation checklist
@@ -166,14 +166,45 @@ Assistant: Time to implement! Let's start coding.
 
 ## Development
 
+### Prerequisites
+
+Make sure you have Node.js 18+ installed.
+
+### Setup
+
 ```bash
-# Development mode
+# Install dependencies with pnpm (recommended)
+pnpm install
+
+# Or with npm
+npm install
+```
+
+### Running the Project
+
+```bash
+# Development mode with pnpm
+pnpm dev
+
+# Or with npm
 npm run dev
 
-# Build
+# Build with pnpm
+pnpm build
+
+# Or with npm
 npm run build
 
-# Test
+# Start built version with pnpm
+pnpm start
+
+# Or with npm
+npm start
+
+# Test with pnpm (when available)
+pnpm test
+
+# Or with npm
 npm test
 ```
 

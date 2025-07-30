@@ -42,6 +42,6 @@ ${template}
 **Session Information**:
 - Session ID: \`${session_id}\`
 - Feature Name: \`${feature_name}\`
-- Requirements: \`.vibedev/specs/${feature_name}/requirements.md\`
-- Design: \`.vibedev/specs/${feature_name}/design.md\``;
+- Requirements: \`.docs/specs/${feature_name}/requirements.md\`
+- Design: \`.docs/specs/${feature_name}/design.md\``;
 }
