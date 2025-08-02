@@ -1,5 +1,7 @@
 # Spec-driven Development MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@kevinlin/spec-driven-dev-mcp)](https://smithery.ai/server/@kevinlin/spec-driven-dev-mcp)
+
 An MCP server that brings AI-guided spec-driven development workflow to any AI-powered IDEs beyonnd Kiro. Transform your development process with structured, step-by-step guidance from idea to implementation.
 
 ## What is Spec-driven Development?
@@ -14,6 +16,14 @@ Spec-driven development is a methodology that emphasizes creating detailed speci
 - **Template-Based**: Uses proven templates for requirements, design, and tasks
 
 ## Installation
+
+### Installing via Smithery
+
+To install spec-driven-dev-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@kevinlin/spec-driven-dev-mcp):
+
+```bash
+npx -y @smithery/cli install @kevinlin/spec-driven-dev-mcp --client claude
+```
 
 ### Using npx (Recommended)
 
