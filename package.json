@@ -27,7 +27,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kevinlin/spec-driven-dev-mcp.git"
+    "url": "git+https://github.com/kevinlin/spec-driven-dev-mcp.git"
   },
   "homepage": "https://github.com/kevinlin/spec-driven-dev-mcp#readme",
   "bugs": {
