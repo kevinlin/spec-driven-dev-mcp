@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "MCP server for AI-powered IDE to follow spec-driven development",
   "main": "dist/index.js",
+  "module": "./src/index.ts",
   "type": "module",
   "bin": {
     "spec-driven-dev-mcp": "dist/index.js"
@@ -38,6 +39,7 @@
     "nanoid": "^5.1.5"
   },
   "devDependencies": {
+    "@smithery/cli": "^1.2.4",
     "@types/node": "^22.13.10",
     "tsx": "^4.20.3",
     "typescript": "^5.8.3",
