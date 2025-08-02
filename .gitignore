@@ -228,4 +228,4 @@ pids
 .yarn-integrity
 
 # MCP Server specific
-.smithery/
+# Add any MCP-specific files that shouldn't be tracked
