@@ -12,7 +12,7 @@ export async function tasksConfirmed(
   return `# ✅ Task Planning Completed
 
 ## Generated Tasks Document:
-📄 ".docs/specs/${feature_name}/tasks.md"
+📄 "docs/specs/${feature_name}/tasks.md"
 
 The tasks document contains a detailed list of development tasks, each with clear descriptions, acceptance criteria, and execution order.
 

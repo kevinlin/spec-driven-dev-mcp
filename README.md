@@ -116,7 +116,7 @@ User: Yes, that's exactly what I need.
 Assistant: Great! Now let's gather detailed requirements.
 [calls spec_driven_dev_requirements_start]
 
-[Assistant generates detailed EARS-format requirements in .docs/specs/user-authentication/requirements.md]
+[Assistant generates detailed EARS-format requirements in docs/specs/user-authentication/requirements.md]
 - WHEN a user provides valid email/password THEN the system SHALL authenticate them
 - GIVEN a user wants Google OAuth WHEN they click "Sign in with Google" THEN the system SHALL redirect to Google
 - WHERE user roles are needed IF user is admin THEN they SHALL access admin features
@@ -191,7 +191,7 @@ Assistant: Time to implement! Let's start coding.
 Throughout the workflow, the following documentation structure is created:
 
 ```
-.docs/specs/{feature_name}/
+docs/specs/{feature_name}/
 ├── requirements.md    # EARS-format requirements
 ├── design.md         # Technical architecture  
 └── tasks.md          # Implementation checklist

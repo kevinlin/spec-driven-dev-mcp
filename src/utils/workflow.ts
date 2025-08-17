@@ -37,21 +37,21 @@ export const WORKFLOW_STEPS: WorkflowStep[] = [
     name: STEP_NAMES.REQUIREMENTS,
     description: 'Generate requirements document in EARS format',
     tool: 'spec_driven_dev_requirements_start → spec_driven_dev_requirements_confirmed',
-    deliverable: '.docs/specs/{feature_name}/requirements.md'
+    deliverable: 'docs/specs/{feature_name}/requirements.md'
   },
   {
     step_number: 3,
     name: STEP_NAMES.DESIGN,
     description: 'Create technical design document based on requirements',
     tool: 'spec_driven_dev_design_start → spec_driven_dev_design_confirmed',
-    deliverable: '.docs/specs/{feature_name}/design.md'
+    deliverable: 'docs/specs/{feature_name}/design.md'
   },
   {
     step_number: 4,
     name: STEP_NAMES.TASKS,
     description: 'Generate executable development task list',
     tool: 'spec_driven_dev_tasks_start → spec_driven_dev_tasks_confirmed',
-    deliverable: '.docs/specs/{feature_name}/tasks.md'
+    deliverable: 'docs/specs/{feature_name}/tasks.md'
   },
   {
     step_number: 5,
